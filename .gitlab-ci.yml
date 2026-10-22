@@ -1,0 +1,6 @@
+include:
+  - component: $CI_SERVER_FQDN/parkingguidancesystems/mobility/ci-templates/baseline@1
+
+# This is a historical binary/package-host repo, not the SDK source. There are
+# no maintained tests or build tasks here. Native-Android's ParkZenCore branch
+# builds and publishes com.parkzenlib:parkzen-core to both registries (PGS-114).

@@ -14,7 +14,8 @@ The SDK is built from the **ParkZenCore branch** of
 [Native-Android](https://gitlab.com/parkingguidancesystems/mobility/Native-Android),
 whose manual publish job releases each version to both registries:
 
-- GitLab Maven: `https://gitlab.com/api/v4/projects/87724980/packages/maven`
+- GitLab Maven: `https://gitlab.com/api/v4/projects/87724980/packages/maven`,
+  Native-Android's registry, not this project's
 - GitHub Packages: `https://maven.pkg.github.com/ParkZenApp/parkzen-core`, for
   consumers that still resolve from GitHub
 
